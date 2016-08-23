@@ -12,6 +12,7 @@
 		5B0819571D6C2B3D0064744D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B0819551D6C2B3D0064744D /* Main.storyboard */; };
 		5B0819591D6C2B3D0064744D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5B0819581D6C2B3D0064744D /* Assets.xcassets */; };
 		5B08195C1D6C2B3D0064744D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5B08195A1D6C2B3D0064744D /* LaunchScreen.storyboard */; };
+		5B0819641D6C2B820064744D /* CustomView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5B0819631D6C2B820064744D /* CustomView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +23,7 @@
 		5B0819581D6C2B3D0064744D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5B08195B1D6C2B3D0064744D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5B08195D1D6C2B3D0064744D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5B0819631D6C2B820064744D /* CustomView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CustomView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 			children = (
 				5B0819511D6C2B3D0064744D /* AppDelegate.swift */,
 				5B0819531D6C2B3D0064744D /* ViewController.swift */,
+				5B0819631D6C2B820064744D /* CustomView.swift */,
 				5B0819551D6C2B3D0064744D /* Main.storyboard */,
 				5B0819581D6C2B3D0064744D /* Assets.xcassets */,
 				5B08195A1D6C2B3D0064744D /* LaunchScreen.storyboard */,
@@ -135,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5B0819641D6C2B820064744D /* CustomView.swift in Sources */,
 				5B0819541D6C2B3D0064744D /* ViewController.swift in Sources */,
 				5B0819521D6C2B3D0064744D /* AppDelegate.swift in Sources */,
 			);

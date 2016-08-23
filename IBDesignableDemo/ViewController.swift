@@ -13,6 +13,15 @@ class ViewController: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
+        
+        let firstView = CustomView(frame: CGRect(x: 0, y: 0, width: 100, height: 100))
+        firstView.conrnerRadius = 50
+        firstView.borderWidth = 2.0
+        firstView.borderColor = UIColor.orangeColor()
+        firstView.backgroundColor = UIColor.yellowColor()
+        
+        view.addSubview(firstView)
+        
     }
 
     override func didReceiveMemoryWarning() {
